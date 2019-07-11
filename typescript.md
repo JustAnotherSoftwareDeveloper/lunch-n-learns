@@ -86,6 +86,28 @@ export class Dog implements Pet {}
 export Enum Breeds = {}
 export function genericFunction<T>(arg: T) : T {}
 ```
+----
+## Annotations
+```typescript
+@JsonController()
+export class MovieControler {
+    private repository = getRepository(MovieEntity);
+
+    @Get("/movies")
+    getAll() {
+        return this.repository.find()
+    }
+
+    @Post("/movie")
+    add(@Body() movie: MovieEntity) {
+        return this.repository.insert(movie);
+    }
+
+    @Put("/movie")
+    edit(@Body() movie: MovieEntity) {
+        return this.repository.save(movie);
+    }
+```
 
 ----
 
@@ -99,14 +121,14 @@ export function genericFunction<T>(arg: T) : T {}
 
 ----
 
-# Higher Code Quality
+## Higher Code Quality
 * Typing allows catching of assignment errors
 * No more bad variable names or method calls
 * 38% of AirBnb bugs could be prevented by Typescript
 <!-- .element: class="fragment" data-fragment-index="1" -->
 ----
 
-# Easier Development
+## Easier Development
 ### IDE Autocompletion
 
 ---
