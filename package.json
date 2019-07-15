@@ -5,7 +5,9 @@
   "description": "Presentations I give to my co-workers",
   "scripts": {
     "typescript:present": "reveal-md typescript.md",
-    "typescript:demo": "reveal-md typescript.md --watch"
+    "typescript:demo": "reveal-md typescript.md --watch",
+    "angular:present": "reveal-md angular.md",
+    "angular:demo":"reveal-md angular.md --watch" 
   },
   "keywords": [
     "presentation",
