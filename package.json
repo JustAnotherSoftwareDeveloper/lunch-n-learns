@@ -7,7 +7,9 @@
     "typescript:present": "reveal-md typescript.md",
     "typescript:demo": "reveal-md typescript.md --watch",
     "angular:present": "reveal-md angular.md",
-    "angular:demo":"reveal-md angular.md --watch" 
+    "angular:demo":"reveal-md angular.md --watch",
+    "jest:present": "reveal-md jest.md",
+    "jest:demo":"reveal-md jest.md --watch" 
   },
   "keywords": [
     "presentation",
