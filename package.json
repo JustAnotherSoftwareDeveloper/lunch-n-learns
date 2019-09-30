@@ -9,7 +9,9 @@
     "angular:present": "reveal-md angular.md",
     "angular:demo":"reveal-md angular.md --watch",
     "jest:present": "reveal-md jest.md",
-    "jest:demo":"reveal-md jest.md --watch" 
+    "jest:demo":"reveal-md jest.md --watch" ,
+    "redux:present": "reveal-md redux.md",
+    "redux:demo":"reveal-md redux.md --watch"
   },
   "keywords": [
     "presentation",
